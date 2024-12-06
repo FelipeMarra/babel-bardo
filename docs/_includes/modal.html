@@ -1,14 +1,17 @@
-<!-- credits: https://github.com/Larissakich/modal/tree/main -->
+<!-- https://github.com/Larissakich/modal/tree/main -->
 
 <style>
+/* Botão de abrir modal */
 .open-modal {
     cursor: pointer;
 }
 
+/* Fundo do modal */
 dialog::backdrop {
     background-color: rgb(0, 0, 0, 0.5);
 }
 
+/* Modal */
 dialog {
     border: none;
     width: 720px;
@@ -16,6 +19,7 @@ dialog {
     padding: 18px;
 }
 
+/* Cabeçalho do modal */
 .modal-header {
     display: flex;
     justify-content: space-between;
@@ -23,6 +27,7 @@ dialog {
     margin-bottom: 10px 18px 18px 18px;
 }
 
+/* Título do modal */
 .modal-title {
     padding-top: 8px;
     align-items: center;
@@ -31,6 +36,7 @@ dialog {
     color: #111928;
 }
 
+/* Botão de fechar modal */
 .close-modal {
     cursor: pointer;
     border: none;
@@ -39,6 +45,7 @@ dialog {
     font-size: 18px;
 }
 
+/* Corpo do modal */
 .modal-body {
     display: flex;
     flex-direction: column;
@@ -48,25 +55,34 @@ dialog {
 
 
 <script>
+// Seleciona todos os botões que abrem e fecham o modal
 const openButtons = document.querySelectorAll('.open-modal');
 const closeButtons = document.querySelectorAll('.close-modal');
 
+// Percorre cada botão de abrir e adiciona o evento de click
 openButtons.forEach(button => {
     button.addEventListener('click', () => {
+        // Pega o id do modal que o botão abre
         const modalId = button.getAttribute('data-modal');
 
+        // Pega o modal pelo id
         const modal = document.getElementById(modalId);
 
+        // Abre o modal
         modal.showModal();
     });
 });
 
+// Percorre cada botão de fechar e adiciona o evento de click
 closeButtons.forEach(button => {
     button.addEventListener('click', () => {
+        // Pega o id do modal que o botão fecha
         const modalId = button.getAttribute('data-modal');
 
+        // Pega o modal pelo id
         const modal = document.getElementById(modalId);
 
+        // Fecha o modal
         modal.close();
     });
 });
