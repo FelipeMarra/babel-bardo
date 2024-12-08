@@ -745,7 +745,7 @@ The following presents examples containing a video link and four, three minutes-
 
 **Video Link**: [Call Of The Wild, Episode 6](https://www.youtube.com/watch?v=bAnj16HmJjw&t=981s)
 
-**About**: In this example, we start at 16:21 minutes in the episode and 15:00 minutes in the generation, to verify how the system is performing after several minutes of generation. 
+**About**: In this example, we start at 16:21 minutes in the episode and 15:00 minutes in the generation, to verify how the system is performing after several minutes of generation. The original piece starts suspenseful, since the players were in a tense moment trying to atract the enemy into a battle. When the battle begins, around 1:23, the original music changes into a more agited one. 
 
 <div class="video-row">
     <div class="video-block">
@@ -759,7 +759,7 @@ The following presents examples containing a video link and four, three minutes-
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/TBF0vypRotQ" frameborder="0" allowfullscreen=""></iframe>
         <p> 
-            Babel Bardo Emotion ...
+            Babel Bardo Emotion starts with a suspenseful piece, matching the overall vibe of the original. Although it received various "Agitated" prompts, it remains consistent and the music is not adapted to a battle theme.
         </p>
     </div>
 </div>
@@ -871,7 +871,7 @@ The following presents examples containing a video link and four, three minutes-
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/tvk0U7H0AWc" frameborder="0" allowfullscreen=""></iframe>
         <p> 
-            Babel Bardo Description ...
+            After the first 30s of generatino Babel Bardo Description starts creating inumerous silences throughout the generated piece. It keeps the suspenseful vibe, also not adapting to a more battle-like theme. At 2:22 the drums goes crazy.
         </p>
     </div>
 
@@ -881,7 +881,7 @@ The following presents examples containing a video link and four, three minutes-
         </h4>
         <iframe width="256" height="144" src="https://www.youtube.com/embed/uv9qLRWM09U" frameborder="0" allowfullscreen=""></iframe>
         <p> 
-            Babel Bardo Description Continuation ...
+            Babel Bardo Description Continuation starts with an interesting tense theme. At 51s it gets more agitated, then it restarts, and keeps a somewhat consistent generation with some pretty interesting horns in the end.
         </p>
     </div>
 </div>
@@ -1082,7 +1082,7 @@ The following presents examples containing a video link and four, three minutes-
 
 <!-- #############################################################################################################################################################################################-->
 
-### Example 4
+<!-- ### Example 4 -->
 
 {% include video_embed.html %}
 {% include modal.html %}
