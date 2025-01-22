@@ -2,7 +2,7 @@ import pathlib
 
 TRANSCRIPTS_CACHE = pathlib.Path(__file__).parent.joinpath("cache", "transcripts").resolve()
 
-MODEL = 'facebook/musicgen-small'
+MODEL = 'facebook/musicgen-small' # facebook/musicgen-large
 EXTEND_STRIDE = 10
 DURATION = 30
 CROSSFADE_DURATION = 1
