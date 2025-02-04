@@ -10,7 +10,7 @@ class OllamaType(Enum):
 class PromptConfig():
     def __init__(self, setup:str="", start:str="", end:str="",) -> None:
         """
-        "setup" will be sent to Ollama teach it the task it needs to perform.
+        "setup" will be sent to Ollama to teach it the task it needs to perform.
         "start" and "end" will be positioned at the beggining and end of the Ollama answer.
         If OllamaType.NONE, "start" and "end" will be positioned at the beggining and end of the dialog.
         """
