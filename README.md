@@ -41,9 +41,9 @@ export OLLAMA_ADDRES = my_ollama_adderes
 
 You can set up the [MusicGen](https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md) system configurations in the [consts.py](https://github.com/FelipeMarra/babel-bardo/blob/main/src/babel_bardo/constants.py) file.
 
-To obtain the paper results we used Ollama 3.1, with 70B parameters, and MuscGen large, with 3.3B parameters. 
+To obtain the paper results we used [Llama 3.1, with 70B parameters](https://ollama.com/library/llama3.1:70b), and MuscGen large, with 3.3B parameters. 
 
-> One can use MusicGen's small model to test the system locally if your Ollama API is on a server elsewhere. It runs on a GTX 1050 with 4G of VRAM. To do so, set `MODEL = 'facebook/musicgen-small'` in the consts file.
+> One can use MusicGen's small model to test the system locally if your Ollama API is on a server elsewhere. It runs on a GTX 1050 with 4GB of VRAM. To do so, set `MODEL = 'facebook/musicgen-small'` in the consts file.
 
 ## Creating and running experiments
 The [experiments folder](https://github.com/FelipeMarra/babel-bardo/tree/main/experiments) contains the experiments for the RPGs Call of the Wild (COTW) and O Segredo Na Ilha (OSNI), featured in the demo.
@@ -53,7 +53,7 @@ Let's take COTW as an example and recreate its experiment in a concise form.
 ### Bardo Template
 > To jump ahead to the final code of this tutorial check the [tutorial.py](https://github.com/FelipeMarra/babel-bardo/blob/main/experiments/tutorial.py) file.
 
-The first thing you need to notice is the [Babel Bardo Template](https://github.com/FelipeMarra/babel-bardo/blob/main/src/babel_bardo/templates.py). It defines the YouTube video that will be used, the folder structure, sets the configuration for Llama and the header for the logs. You can create your won Bardo, or use one of the existent presets. 
+The first thing you need to notice is the [Babel Bardo Template](https://github.com/FelipeMarra/babel-bardo/blob/main/src/babel_bardo/templates.py). It defines the YouTube video that will be used, the folder structure, sets the configuration for Llama and the header for the logs. You can create your own Bardo, or use one of the existent presets. 
 
 Let's suppose you chose to use Description Continuation (DC), which corresponds to the preset Bardo3. So we'll instantiate this template by passing the `rpg_name`, the `root_path` for the folder structure and the `video_id`. The video id for the first episode of COTW with link https://www.youtube.com/watch?v=tZWU5iPjQpI will be `tZWU5iPjQpI`.
 
