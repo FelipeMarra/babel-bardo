@@ -10,7 +10,7 @@ Long-Form Text-to-Music Generation with Adaptive Prompts: <br> A Case of Study i
 {: style="font-size: 160%; text-align: center;"}
 
 <!-- Authors -->
-<div> <a href="https://www.felipemarra.com">Felipe Marra </a> <span style="display:block; width:10px"> </span> <a href="https://www.lucasnferreira.com/">Lucas N. Ferreira</a></div>
+<div> <a href="https://www.felipemarra.com">Felipe Marra </a> <span style="display:block; width:10px"> </span> <a href="https://homepages.dcc.ufmg.br/~lferreira/">Lucas N. Ferreira</a></div>
 {: style="display:flex; align-items: center; justify-content: space-around; font-size: 130%;"}
 
 <!-- Conference -->
