@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 At every 30 seconds of gameplay, Babel Bardo transcribes the players' speeches into a text _s<sub>i</sub>_ using a Speech Recognition system and uses a Large Langue Model (LLM) to map _s<sub>i</sub>_ into a music description _d<sub>i</sub>_ that matches the scene described by the players. This music description is given to a Text-to-Music system that generates a 30-second piece _a<sub>i</sub>_ directly in the audio domain. <br><br>
 
-<img src="{{site.baseurl}}/assets/bardo_overview.png"> <br><br>
+<img src="https://github.com/FelipeMarra/babel-bardo/blob/main/docs/assets/imgs/bardo_overview.png"> <br><br>
 
 ___________________________________________________________________________________________________________________________________________________________
 
